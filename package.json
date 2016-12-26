@@ -1,0 +1,27 @@
+{
+  "name": "babel-preset-flow-typecheck",
+  "version": "1.0.0",
+  "description": "Babel preset for flow with typecheck",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanwimmer128/babel-preset-flow-typecheck.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "flow",
+    "typecheck"
+  ],
+  "author": "Stefan Wimmer <stefanwimmer128@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanwimmer128/babel-preset-flow-typecheck/issues"
+  },
+  "homepage": "https://github.com/stefanwimmer128/babel-preset-flow-typecheck#readme",
+  "dependencies": {
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-plugin-typecheck": "^3.9.0"
+  }
+}
